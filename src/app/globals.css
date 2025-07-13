@@ -3,13 +3,19 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@theme {
+  
+  --font-display: 'Lobster', cursive;
+  --breakpoint-*: initial;
+  --breakpoint-sm: 300px;
+  --breakpoint-md: 540px;
+  --breakpoint-lg: 768px;
+  --breakpoint-xl: 1180px;
+  --breakpoint-xxl: 1440px;
+  
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,5 +28,16 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-display);
+  
 }
+body{
+  @apply bg-green-950 text-white ;
+}
+.nav-link{
+  @apply text-lg font-bold duration-300  ;
+}
+.nav-link:hover{
+  @apply text-yellow-500;
+}
+
