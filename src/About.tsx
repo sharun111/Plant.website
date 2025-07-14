@@ -19,7 +19,7 @@ export default function About(){
                             Make your <span className="text-yellow-500">organic</span> <br />
                             garden
                         </h3>
-                        <p className="text-slate-300">
+                        <p className="text-slate-300 xxl:text-2xl">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi reiciendis officia quibusdam impedit amet quisquam! Culpa error soluta veritatis libero esse reiciendis amet enim, quis voluptatibus, laboriosam molestias magnam neque.
                         </p>
                     </div>
@@ -35,12 +35,12 @@ export default function About(){
                 </div>
 
                 <div className="w-full lg:w-1/2">
-                    <div className="space-y-5 xxl:px-20"> 
+                    <div className="space-y-5 xxl:pl-50 xxl:pt-20"> 
                         <h3 className="text-xl md:text-3xl xl:text-4xl">
                             Come with us <br /> <span className="text-yellow-500">grow up </span> 
                             your plant
                         </h3>
-                        <p className="text-slate-300">
+                        <p className="text-slate-300 xxl:text-2xl">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi reiciendis officia quibusdam impedit amet quisquam! Culpa error soluta veritatis libero esse reiciendis amet enim, quis voluptatibus, laboriosam molestias magnam neque.
                         </p>
                     </div>
