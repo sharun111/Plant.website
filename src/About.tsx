@@ -1,6 +1,6 @@
 export default function About(){
     return(
-        <section id="about" className="relative overflow-hidden mt-20">
+        <section className="relative overflow-hidden mt-20">
         <div className="flex flex-col items-center gap-3 text-center mb-10 md:mb-20" >
             <h2 className="font-Lobstar text-yellow-500 text-2xl md:text-3xl xl:text-4xl">About Us</h2>
             <p className="max-w-2xl">Follow instruction for more</p>
@@ -37,7 +37,7 @@ export default function About(){
                 <div className="w-full lg:w-1/2">
                     <div className="space-y-5 xxl:px-20"> 
                         <h3 className="text-xl md:text-3xl xl:text-4xl">
-                            Come with us <br /> <span className="text-yellow-500">grow up</span> 
+                            Come with us <br /> <span className="text-yellow-500">grow up </span> 
                             your plant
                         </h3>
                         <p className="text-slate-300">

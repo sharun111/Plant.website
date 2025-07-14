@@ -6,8 +6,8 @@ export default function Header() {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <header className="bg-green-950 fixed w-full top-0 left-0 z-50 xxl:h-[150]">
-            <nav className="flex items-center justify-between h-16 sm:h-20 px-4 md:px-8 lg:px-16">
+        <header className="bg-green-950 fixed w-full top-0 left-0 z-50 xxl:h-[100] lg:h-[100]">
+            <nav className="flex items-center justify-between h-16 sm:h-20 px-4 md:px-8 lg:px-16 lg:-mt-7">
                 {/* Logo */}
                 <div className="text-white font-Lobster text-xl sm:text-2xl xxl:mt-20 xxl:ml-20 xxl:text-5xl xl:mt-20 lg:mt-20">
                     IndorePlants.

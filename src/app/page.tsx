@@ -3,6 +3,7 @@ import Home from '@/Home';
 import 'remixicon/fonts/remixicon.css';
 import Services from '../Services';
 import About from '@/About';
+import Popular from '@/Popular';
 
 
 export default function Page() {
@@ -12,6 +13,7 @@ export default function Page() {
       <Home/>
       <Services/>
       <About/>
+      <Popular/>
     </main>
   )
 }
