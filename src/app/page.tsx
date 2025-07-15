@@ -12,27 +12,27 @@ export default function Page() {
     <main className="scroll-smooth">
       <Header />
 
-      <section id="home" className="lg:pt-10">
+      <section id="home">
         <Home />
       </section>
 
-      <section id="services" className="lg:pt-10">
+      <section id="services">
         <Services />
       </section>
 
-      <section id="about" className="lg:pt-10">
+      <section id="about">
         <About />
       </section>
 
-      <section id="popular" className="lg:pt-10">
+      <section id="popular">
         <Popular />
       </section>
 
-      <section id="review" className="lg:pt-10">
+      <section id="review">
         <Review />
       </section>
 
-      <section id="footer" className="lg:pt-10">
+      <section id="footer">
         <Footer />
       </section>
     </main>
